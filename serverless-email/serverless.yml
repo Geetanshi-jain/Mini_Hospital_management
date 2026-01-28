@@ -1,0 +1,29 @@
+service: hospital-email-service
+
+frameworkVersion: '3'
+
+# 🔥 THIS LINE IS MANDATORY
+useDotenv: true
+
+provider:
+  name: aws
+  runtime: python3.9
+  timeout: 30
+  environment:
+    EMAIL_USER: ${env:EMAIL_USER}
+    EMAIL_PASSWORD: ${env:EMAIL_PASSWORD}
+    EMAIL_HOST: ${env:EMAIL_HOST}
+    EMAIL_PORT: ${env:EMAIL_PORT}
+    EMAIL_FROM: ${env:EMAIL_FROM}
+
+functions:
+  sendEmail:
+    handler: handler.send_email
+    events:
+      - http:
+          path: send-email
+          method: post
+          cors: true
+
+plugins:
+  - serverless-offline

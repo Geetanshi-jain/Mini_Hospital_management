@@ -1,0 +1,14 @@
+{
+    "name": "hospital-email-service",
+    "version": "1.0.0",
+    "description": "Serverless email service for Hospital HMS",
+    "main": "handler.py",
+    "scripts": {
+        "start": "serverless offline"
+    },
+    "devDependencies": {
+        "serverless": "^3.0.0",
+        "serverless-dotenv-plugin": "^6.0.0",
+        "serverless-offline": "^13.0.0"
+    }
+}
