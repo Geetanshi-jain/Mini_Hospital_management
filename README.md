@@ -6,7 +6,8 @@ A robust and efficient web application designed to streamline hospital appointme
 
 ## 🎥 Project Demo
 
-Watch the project walkthrough here: [YouTube Link]([https://youtu.be/Zi7-Wev2tpw](https://github.com/Geetanshi-jain/Mini_Hospital_management))
+ Watch the project walkthrough here: [YouTube Link](https://youtu.be/ADDNIaXRiqY)
+
 
 ## 📖 Project Overview
 
