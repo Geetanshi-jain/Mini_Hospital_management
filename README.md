@@ -128,4 +128,4 @@ The system uses a strict flow to ensure booking reliability:
 6.  **Sync**: Background tasks trigger Email and Google Calendar updates.
 
 ---
-*Developed by Abhishek Yaduwanshi*
+*Developed by Geetanshi jain*
