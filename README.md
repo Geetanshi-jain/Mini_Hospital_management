@@ -2,11 +2,9 @@
 
 A robust and efficient web application designed to streamline hospital appointment bookings, manage doctor availability, and integrate seamlessly with external services like Google Calendar.
 
-**Author:** Abhishek Yaduwanshi
 
-## 🎥 Project Demo
 
- Watch the project walkthrough here: [YouTube Link](https://youtu.be/ADDNIaXRiqY)
+
 
 
 ## 📖 Project Overview
